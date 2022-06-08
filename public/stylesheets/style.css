@@ -60,7 +60,7 @@ a {
   font-weight: lighter;
 }
 
-#moviesbox{
+#moviesbox {
   width: 96%;
   height: 100%;
   margin: 0 auto;
@@ -71,7 +71,7 @@ a {
   justify-content: flex-start;
 }
 
-#moviesbox .movie-card{
+#moviesbox .movie-card {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -85,13 +85,39 @@ a {
 .movie-card img {
   margin: 0 auto;
   width: 200px;
-} 
+}
 
 .movie-card p {
   font-weight: bold;
   padding: 10px;
-} 
+}
 
 .movie-card a {
   padding: 5px;
-} 
+}
+
+#moviedetail {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+#moviedetailcard {
+  width: 50vw;
+  height: 50vh;
+  margin-top: 30px;
+}
+
+#moviedetail > img {
+  width: 250px;
+  height: 350px;
+  padding: 40px;
+}
+
+#horizontallist{
+  display: inline;
+}
+
+ul {
+  list-style-position: inside;
+}
