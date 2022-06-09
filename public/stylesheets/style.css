@@ -103,21 +103,37 @@ a {
 }
 
 #moviedetailcard {
-  width: 50vw;
+  width: 30vw;
   height: 50vh;
   margin-top: 30px;
 }
 
 #moviedetail > img {
-  width: 250px;
-  height: 350px;
+  width: 200px;
+  height: 300px;
   padding: 40px;
 }
 
-#horizontallist{
+#horizontallist {
   display: inline;
 }
 
 ul {
   list-style-position: inside;
+}
+
+#moviedetailcard > h1 {
+  margin: 15px 0px;
+}
+
+#moviedetailcard > h2 {
+  margin: 15px 0px;
+}
+
+#moviedetailcard > h3 {
+  margin: 15px 0px;
+}
+
+#moviedetailcard > p {
+  margin: 15px 0px;
 }
